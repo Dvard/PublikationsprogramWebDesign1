@@ -1,0 +1,132 @@
+body {
+    font-family: "Apple Symbols";
+}
+
+.container-fluid {
+    padding-top: 10px;
+}
+
+#nav-logo {
+    max-height: 40px;
+    position: absolute;
+}
+
+.nav-item a {
+    color: #000;
+    font-size: 2.3em;
+    font-weight: 800;
+}
+
+header {
+    margin-top: 40px;
+    height: 100vh;
+}
+
+header img {
+    max-height: 245px;
+}
+
+header h1 {
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 3em;
+}
+
+header i {
+    margin-top: 80px;
+    font-size: 6em !important;
+}
+
+header i:hover {
+    cursor: pointer;
+}
+
+#about {
+    height: 100vh;
+    padding-left: 150px;
+    padding-right: 370px;
+}
+
+#about div {
+    margin-top: 40px;
+}
+
+.about-card-l, .about-card-r {
+    max-width: 50%;
+    padding: 30px;
+}
+
+.about-card-l h3, .about-card-r h3 {
+    font-size: 3em;
+}
+
+.about-card-r p, .about-card-l p {
+    font-size: 1.3em;
+}
+
+.about-card-r {
+    text-align: right;
+    float: right;
+}
+
+#contact {
+    height: 80vh;
+    padding-left: 600px;
+    padding-top: 50px;
+    background-color: #2f2f2f;
+    color: #fff;
+}
+
+#contact h2 {
+    text-align: left;
+    padding-left: 80px;
+    font-size: 2.6em;
+}
+
+#contact form {
+    max-width: 60%;
+    margin-top: 40px;
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    margin: 12px;
+    padding: 10px;
+}
+
+#contact button {
+    float: right;
+    font-size: 1.5em;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-radius: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    height: 40px;
+}
+
+footer p {
+    font-size: 1.4em;
+    color: #4f4f4f;
+}
+
+.effect {
+    max-height: 670px;
+    position: absolute;
+    z-index: 1;
+}
+
+#effect {
+    top: 120vh;
+    right: 0;
+}
+
+#effect-blue {
+    top: 205vh;
+    left: 0;
+}
